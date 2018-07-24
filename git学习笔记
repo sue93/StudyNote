@@ -1,0 +1,11 @@
+一，下载仓库
+  git clone 
+
+二,添加到缓冲区
+   git add .
+
+三,提交到本地仓库
+	git commit -m "提交说明"
+
+四,发布到远程服务器
+	git push
