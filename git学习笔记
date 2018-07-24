@@ -7,5 +7,16 @@
 三,提交到本地仓库
 	git commit -m "提交说明"
 
+
 四,发布到远程服务器
 	git push
+
+五,删除
+	git rm  file
+
+六,撤销
+	git checkout -- file
+
+七,查看日志
+	git log
+
