@@ -1,0 +1,20 @@
+一，流程
+    1,create_engine,创建实例"mysql+pymysql://root:root@localhost:3306/hotel?charset=utf8"
+    2,connect,连接数据库
+    2，execute,执行sql
+
+二，创建表
+    metadata=MetaData()，代表对象和表之间的关系
+
+    user=Table('users',metadata,Column('id',Integer))
+
+    metadata.create_all(engine)//创建，如果数据库已存在，不做处理
+
+三，基类
+    declarative_base()
+
+
+    
+show full columns from t_test;
+
+show variables like '%character%';
