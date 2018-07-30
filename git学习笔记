@@ -45,3 +45,7 @@
 
 	3，配置github官网
 	   Settings –> SSH and GPG keys->New SSH key 
+
+十三,搭建自己的git服务器
+	1,$ sudo git init --bare sue.git  初始化
+	2链接地址https://www.haorooms.com/post/centos_git
