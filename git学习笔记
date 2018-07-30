@@ -31,3 +31,17 @@
 
 十一，本地还原成服务器代码
     git reset
+
+
+十二，配置ssh秘钥连接
+	1，
+	$ git config --global user.name "Your Name"
+	$ git config --global user.email "youremail@domain.com"
+	$ git config --list
+
+	2，生成秘钥
+	$ cd ~
+	$ ssh-keygen -t rsa -C "youremail@domain.com"
+
+	3，配置github官网
+	   Settings –> SSH and GPG keys->New SSH key 
