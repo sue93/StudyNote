@@ -6,3 +6,13 @@
 # @Version : $Id$
 
 import os
+def add_number(func):
+	def adder(arg):
+		return func(arg)+100
+	return adder
+@add_number
+def pingfang(x):
+	return x*x
+
+
+print(pingfang(20))
