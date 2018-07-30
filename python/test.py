@@ -6,13 +6,22 @@
 # @Version : $Id$
 
 import os
-def add_number(func):
-	def adder(arg):
-		return func(arg)+100
-	return adder
-@add_number
-def pingfang(x):
-	return x*x
+import sys
+import inspect
+import time
+from win32com.client import DispatchEx
 
+# ie=DispatchEx('InternetExplorer.Application')
+# ie.Visible=1
+# url='http://www.baidu.com'
+# ie.Navigate(url)
+# time.sleep(5)
+# document=ie.Document
+# content = document.documentElement.innerHTML
 
-print(pingfang(20))
+# print(content)
+# ie.Quit()
+
+import sys
+s='美团'
+print(sys.getsizeof(s))
