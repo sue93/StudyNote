@@ -1,0 +1,63 @@
+
+# http://mmbiz.qpic.cn/mmbiz/iaL1LJM1mF9aRKPZJkmG8xXhiaHqkKSVMMWeN3hLut7X7hicFNjakmxibMLGWpXrEXB33367o7zHN0CwngnQY7zb7g/0
+
+# A_pdgaDwWrXpLSncmhNYr5z5dXEx9M_2018-08-04
+
+
+{
+  "card": {
+    "card_type": "GENERAL_COUPON",
+    "general_coupon": {
+      "base_info": {
+        "logo_url": "http://wechat.hdghotel.com/Images/yt1.png",
+        "brand_name": "悦亭",
+        "code_type": "CODE_TYPE_BARCODE",
+        "title": "测试补发优惠券",
+        "sub_title": "轻松一刻",
+        "color": "Color010",
+        "notice": "使用时向服务员出示此券",
+        "service_phone": "0571-63125111/63125889",
+        "description": "不可与其他优惠同享\n如需团购券发票，请在消费时向商户提出\n店内均可使用，仅限堂食",
+        "date_info": {
+          "type": "DATE_TYPE_FIX_TIME_RANGE",
+          "begin_timestamp": 1530781546,
+          "end_timestamp": 1546324063
+        },
+        "sku": {
+          "quantity": 200
+        },
+        "get_limit": 200,
+        "use_limit":200,
+        "use_custom_code": false,
+        "bind_openid": true,
+        "can_share": true,
+        "can_give_friend": true,
+        
+        "custom_url_name": "立即使用",
+        "custom_url": "http://www.qq.com",
+        "custom_url_sub_title": "轻松一夏",
+        "promotion_url_name": "更多优惠",
+        "promotion_url": "http://www.qq.com",
+        "source": "华帝港"
+      },
+      "default_detail":"悦亭养身足浴原价178元,现价58元"
+    }
+  }
+}
+
+悦亭养身足浴原价178元,现价58元
+悦亭养身足浴原价258元,现价98元
+
+ {"action_name": "QR_CARD",
+ "expire_seconds": 1800,
+"action_info": {
+"card": {
+"card_id": "pFS7Fjg8kV1IdDz01r4SQwMkuCKc",
+ "code": "198374613512",
+"openid": "oFS7Fjl0WsZ9AMZqrI80nbIq8xrA",
+"is_unique_code": false ,
+"outer_str":"12b"
+  }
+ }
+}
+
