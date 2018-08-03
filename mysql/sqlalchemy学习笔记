@@ -18,3 +18,5 @@
 show full columns from t_test;
 
 show variables like '%character%';
+
+explain select * from t3 where id=3952602;//查看mysql执行计划
