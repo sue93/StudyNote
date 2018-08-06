@@ -4,3 +4,18 @@
 
 #查询数据库最大连接数
 show variables like '%max_connections%';
+
+#查询有几个数据库              显示所有的数据库              显示数据库里面所有的表      查询表的数据结构
+select database()			   show databases	        	 show tables                 describe 表名
+
+#查询当前版本和日期
+select version(),current_date;
+
+#sql执行计划
+explain   sql语句
+
+
+
+
+
+二,mysql索引详解
