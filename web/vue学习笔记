@@ -34,3 +34,19 @@
 	<child msg="{{* parentMsg}}"></child>
 
 双向绑定会反向同步子级的 msg 属性到父级的 parentMsg 属性。一次性绑定在完成之后不会在父级和子级之间同步未来发生的变化。
+
+
+
+
+v-bind 缩写
+<!-- 完整语法 -->
+<a v-bind:href="url">...</a>
+
+<!-- 缩写 -->
+<a :href="url">...</a>
+v-on 缩写
+<!-- 完整语法 -->
+<a v-on:click="doSomething">...</a>
+
+<!-- 缩写 -->
+<a @click="doSomething">...</a>
