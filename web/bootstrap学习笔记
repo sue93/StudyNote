@@ -1,6 +1,9 @@
 一,div
 	1，center-block  让内容居中
-
+	2,sr-only  隐藏标签
+	3,pull-left  标签左浮动
+	4,form-control 元素都被默认width:100%
+	5,clearfix清除浮动
 
 二,文本
 	1， <s>  无用文本标签
