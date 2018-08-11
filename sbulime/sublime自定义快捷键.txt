@@ -1,0 +1,131 @@
+[
+  {
+    "keys": [
+      "ctrl+alt+j"
+    ],
+    "command": "pretty_json"
+  },
+  {
+    "keys": [
+      "ctrl+alt+m"
+    ],
+    "command": "un_pretty_json"
+  },
+  {
+    "command": "anaconda_goto",
+    "keys": [
+      "f12"
+    ],
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "source.python"
+      }
+    ]
+  },
+  {
+    "keys": [
+      "f5"
+    ],
+    "caption": "SublimeREPL: Python - RUN current file",
+    "command": "run_existing_window_command",
+    "args": {
+      "id": "repl_python_run",
+      "file": "config/Python/Main.sublime-menu"
+    }
+  },
+  {
+    "keys": [
+      "f4"
+    ],
+    "caption": "SublimeREPL: Python",
+    "command": "run_existing_window_command",
+    "args": {
+      "id": "repl_python",
+      "file": "config/Python/Main.sublime-menu"
+    }
+  },
+  {
+    "keys": [
+      "ctrl+d"
+    ],
+    "command": "run_macro_file",
+    "args": {
+      "file": "Packages/Default/Delete Line.sublime-macro"
+    }
+  },
+  {
+    "keys": [
+      "alt+enter"
+    ],
+    "command": "move",
+    "args": {
+      "by": "lines",
+      "forward": true
+    }
+  },
+  {
+    "keys": [
+      "alt+r"
+    ],
+    "command": "move",
+    "args": {
+      "by": "characters",
+      "forward": true
+    }
+  },
+  {
+    "keys": [
+      "alt+l"
+    ],
+    "command": "move",
+    "args": {
+      "by": "characters",
+      "forward": false
+    }
+  },
+  {
+    "keys": [
+      "alt+u"
+    ],
+    "command": "move",
+    "args": {
+      "by": "lines",
+      "forward": false
+    }
+  },
+  {
+    "keys": [
+      "f1"
+    ],
+    "command": "side_bar_files_open_with",
+    "args": {
+      "paths": [],
+      "application": "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe",
+      "extensions": ".*"
+    }
+  },
+  {
+    "keys": [
+      "f2"
+    ],
+    "command": "side_bar_files_open_with",
+    "args": {
+      "paths": [],
+      "application": "D:/firebox/firefox.exe",
+      "extensions": ".*"
+    }
+  },
+  {
+    "keys": [
+      "f3"
+    ],
+    "command": "side_bar_files_open_with",
+    "args": {
+      "paths": [],
+      "application": "D:/360/360downs/360se6/Application/360se.exe",
+      "extensions": ".*"
+    }
+  }
+]
