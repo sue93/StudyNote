@@ -1,0 +1,28 @@
+1,.container  
+
+2,row 行    align-self-start顶部对齐
+
+3,col-  列宽
+
+垂直(上中下)
+aligin-items-strat顶部对齐  -center中央对齐 -end尾部对齐
+
+水平(左中右)
+ justify-content-center
+
+
+ &times;关闭图标,age:    <a class="close" data-dismiss="alert" href="#" aria-hidden="true">&times;</a>
+
+
+ 导航
+ 首页/课程/BootStrap
+ <nav>
+ <ol class="breadcrumb">
+    <li class=breadcrumb-item>首页</li>
+    <li class=breadcrumb-item>课程</li>
+    <li class=breadcrumb-item>bootstrap</li>
+ </ol>
+ </nav>
+
+ 按钮组件
+ btn-outline-danger描边
