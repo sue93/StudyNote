@@ -1,4 +1,14 @@
 // Place your key bindings in this file to overwrite the defaults
+// 光标,上下左右
+//      alt+  u|d|l|r
+// 光标右移一个单词 
+//      alt+enter
+// 复制当前行到下一行
+//     shift+alt+d
+// 整行移动(上下)
+//     alt+[|]
+
+
 [
     {
         "key": "alt+u",
@@ -81,12 +91,3 @@
         "when": "editorTextFocus && !editorReadonly"
     }
 ]
-
-// 光标,上下左右
-//      alt+  u|d|l|r
-// 光标右移一个单词 
-//      alt+enter
-// 复制当前行到下一行
-//     shift+alt+d
-// 整行移动(上下)
-//     alt+[|]
