@@ -7,8 +7,10 @@
 垂直(上中下)
 aligin-items-strat顶部对齐  -center中央对齐 -end尾部对齐
 
-水平(左中右)
- justify-content-center
+水平() 仅针对row(行)
+ justify-content-center 居中
+ justify-content-center 中间隔开
+ justify-content-around 等边距隔开
 
 
  &times;关闭图标,age:    <a class="close" data-dismiss="alert" href="#" aria-hidden="true">&times;</a>
@@ -26,3 +28,7 @@ aligin-items-strat顶部对齐  -center中央对齐 -end尾部对齐
 
  按钮组件
  btn-outline-danger描边
+
+
+ card组件
+ card-img-top
