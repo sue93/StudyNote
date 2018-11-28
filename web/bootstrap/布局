@@ -9,7 +9,7 @@ aligin-items-strat顶部对齐  -center中央对齐 -end尾部对齐
 
 水平() 仅针对row(行)
  justify-content-center 居中
- justify-content-center 中间隔开
+ justify-content-between 中间隔开
  justify-content-around 等边距隔开
 
 
