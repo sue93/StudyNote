@@ -1,1 +1,11 @@
- 1，设置文字间距 word-spacing:25px;
+ 一,文本
+    1，设置文字间距 word-spacing:25px;
+    2,text-indent设置块级元素边距      age:<p></p> 
+    3,line-height:80%; 内联元素,行高
+    4,visibility:hidden元素不可见
+    5, clear:both;清除侧面浮动
+    6,图像透明度 opacity:0.4;
+                filter:alpha(opacity=40); /* 针对 IE8 以及更早的版本 */
+
+二,模型框边距
+ margin 把左和右外边距设置为 auto，规定的是均等地分配可用的外边距。结果就是居中的元素：
