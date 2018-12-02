@@ -8,4 +8,9 @@
                 filter:alpha(opacity=40); /* 针对 IE8 以及更早的版本 */
 
 二,模型框边距
- margin 把左和右外边距设置为 auto，规定的是均等地分配可用的外边距。结果就是居中的元素：
+
+
+三,居中对齐方式
+  1,margin 把左和右外边距设置为 auto，规定的是均等地分配可用的外边距。结果就是居中的元素：
+   一定要是块级元素(display:block)
+  2,text-align:center 针对内联元素
