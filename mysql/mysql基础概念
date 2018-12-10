@@ -14,8 +14,31 @@ select version(),current_date;
 #sql执行计划
 explain   sql语句
 
-
+#查看默认端口号
+ show variables like 'port';
 
 
 
 二,mysql索引详解
+
+三,数据类型
+ INT UNSIGNED的范围类型就是0 ～ 4 294 967 295。
+  create table t_user(
+     uid int unsigned auto_increment ,
+     name nvarchar(20) not null,
+     account nvarchar(20) not null,
+     mobile varchar(15),
+     email varchar(40),
+     qq varchar(20),
+    wechat_openid varchar(50),
+     login_pwd nvarchar(20),
+     login_total int unsigned,
+     login_last_time datetime,
+     create_time datetime not null,
+     state int not null,
+     PRIMARY KEY ( uid ))ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+     增加表字段
+     ALTER TABLE t_user ADD birthday datetime AFTER name;
+
+     再检查连接字符串是否正确，Unable to connect to any of the specified MySQL hosts.
