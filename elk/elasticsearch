@@ -25,3 +25,18 @@
                 match_phrase匹配词组查询
                 match_phrase_prefix匹配短语前缀查询   参数: max_expansions允许后缀可扩展的最大数量
                 query_string查询分析输入和分裂的运营商的文本。每个文本部分彼此独立地分析
+    3, query查询         _score表示查询结果就显示 这两列“account_number”/“balance”
+        {
+    “query”：{“match_all”：{}}，
+    “_source”：[“account_number”，“balance”]
+    }    
+
+    4,分页 from:1,size:20
+
+    5,sort排序
+
+    6,_score返回结果   
+        包含:“includes”：[“obj1。*”，“obj2。*”]     
+        排除: excludes ：[“* .description”]
+
+    7,post_filter应用于搜索请求的最后的搜索命中

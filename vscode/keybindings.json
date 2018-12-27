@@ -1,13 +1,20 @@
 // Place your key bindings in this file to overwrite the defaults
 // 光标,上下左右
 //      alt+  u|d|l|r
-// 光标右移一个单词 
+//代码提示选择下一个 
 //      alt+enter
 // 复制当前行到下一行
 //     shift+alt+d
 // 整行移动(上下)
 //     alt+[|]
-
+// 行首
+//     alt+,
+//行尾
+//     alt+.
+// 左移一个单词
+//     alt+d+l
+//右移一个单词
+//     alt+j+r
 
 [
     {
@@ -89,5 +96,31 @@
         "key": "alt+up",
         "command": "-editor.action.moveLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+enter",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "down",
+        "command": "-selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "alt+oem_period",
+        "command": "cursorLineStart"
+    },
+    {
+        "key": "alt+oem_period",
+        "command": "cursorLineEnd"
+    },
+    {
+        "key": "alt+d alt+l",
+        "command": "cursorWordLeft"
+    },
+    {
+        "key": "alt+j alt+r",
+        "command": "cursorWordRight"
     }
 ]
