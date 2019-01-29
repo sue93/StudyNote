@@ -41,4 +41,15 @@ explain   sql语句
      增加表字段
      ALTER TABLE t_user ADD birthday datetime AFTER name;
 
-     再检查连接字符串是否正确，Unable to connect to any of the specified MySQL hosts.
+ create table t_menu(
+    mid int unsigned auto_increment,
+    name nvarchar(20) not null,
+    title nvarchar(30),
+    descibe nvarchar(70),
+    icon varchar(30),
+    url varchar(50),
+    parent_id int unsigned,
+    state int not null,
+    create_time datetime not null,
+    create_emplo nvarchar(20) not null,
+    PRIMARY KEY (mid))ENGINE=InnoDB DEFAULT CHARSET=utf8;
